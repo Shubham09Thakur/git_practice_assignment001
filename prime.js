@@ -5,12 +5,12 @@ if(num%i==0){
 factor++;}
 }
 if(factor>0){
-return True;}
-else{return False;}
+return false;}
+else{return true;}
 }
 
 
-if(checkprime==True){
+if(checkprime==true){
 console.log(num, "is Prime")}
 
 else{console.log(num, "is not Prime")}
