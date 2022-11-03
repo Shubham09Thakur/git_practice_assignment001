@@ -4,13 +4,14 @@ for(let i=1;i<=num;i++){
 if(num%i==0){
 factor++;}
 }
-if(factor>2){
-return False;}
-else{return True;}
+if(factor>0){
+return false;}
+else{return true;}
+
 }
 
 
-if(checkprime==True){
+if(checkprime==true){
 console.log(num, "is Prime")}
 
 else{console.log(num, "is not Prime")}
